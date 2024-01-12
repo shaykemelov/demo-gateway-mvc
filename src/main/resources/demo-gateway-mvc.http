@@ -1,0 +1,14 @@
+###
+GET http://localhost:8080/test/api
+
+<> 2024-01-12T152512.200.txt
+
+###
+GET http://localhost:8080/test/api?test=qwe
+
+<> 2024-01-12T152536.200.txt
+
+###
+GET http://localhost:8080/test/api?test=йцу
+
+<> 2024-01-12T152544.500.json
